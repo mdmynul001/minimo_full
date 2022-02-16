@@ -1,0 +1,282 @@
+/*common start*/
+body{
+	margin: 0;
+	padding: 0;
+	font-family: 'Playfair Display', serif;
+	font-size: 16px;
+	font-weight: 400;
+	color: #626262;
+}
+
+/*commone end*/
+/*header start*/
+header{
+    padding: 20px 0;
+	/*border: 1px solid blue;*/
+}
+.container{
+	margin: 0 auto;
+	overflow: hidden;
+	width: 90%;
+	/*border: 1px solid black;*/
+}
+.logo{
+	margin-top: 18px;   /*13px*/
+	width: 11%;
+	/*border: 1px solid red;*/
+	float: left;
+}
+.logo img{
+	width: 100%;
+}
+.menu{
+	width: 65%;
+	/*border: 1px solid red;*/
+	float: right;
+}
+.menu ul{
+	float: right;
+}
+.menu ul li{
+	list-style: none;
+	float: left;
+}
+.menu ul li a{
+	margin: 0 40px;    /*real 50px*/
+	padding: 4px 1px 3px;
+	display: inline-block;
+	color: #626262;
+	text-transform: uppercase;
+	text-decoration: none;
+	/*border-bottom: 1px solid transparent;*/
+	transition: .3s;
+}
+.menu ul li:last-child a{
+	margin-right: 0;
+}
+.menu ul li a:hover {
+
+	border-bottom: 1px solid #626262;
+}
+/*header end*/
+
+/*banner start*/
+.banner{}
+.b_img{}
+.b_img img{
+	width: 100%;
+}
+
+/*banner end*/
+/*perfect start*/
+.perfect{
+	padding-top: 100px;
+	/*padding-bottom: 100px;*/
+	/*border: 1 px solid blue;*/
+}
+.container2{
+	overflow: hidden;
+	margin: 0 auto;
+	width: 80%;
+	/*border: 1px solid red;*/
+}
+.p_content{}
+.c_light{
+	margin: 0;
+	font-family: 'ubuntu', sans-serif;
+	font-size: 14px;
+	font-weight: 300;
+	color: #b4ad9e;
+	text-transform: uppercase;
+}
+.c_h1{
+	margin-top: 20px;
+	margin-bottom: 30px;
+	font-size: 30px;
+	font-weight: 400;
+}
+.c_text{
+	margin: 0;
+}
+.mb_40{
+	margin-bottom: 40px;
+}
+/*perfect end*/  
+/*blog start*/
+.blog{
+	padding-top: 25px;
+	padding-bottom: 100px;
+	/*border: 1 px solid blue;*/
+}
+.blogs{}
+.single{
+	margin-top: 70px;
+	width: 45%;
+	/*border: 1px solid green;*/
+	float: left;
+}
+.single:nth-child(even){
+     margin-left: 10%;
+}
+.s_img{
+	margin-bottom: 25px;
+}
+.s_img img{
+	width: 100%;
+}
+ 
+
+/*blog end*/
+/*contact start*/
+.news{
+	padding: 70px 0;
+	background-color: #f0f0f0;
+}
+.signup{
+	text-align: center;
+}
+.s_h1{
+	color: #333333;
+	margin-top: 0;
+	margin-bottom: 70px;
+}
+.s_form{
+	position: relative;
+	width: 400px;
+	/*border: 5px solid red;*/
+	margin: 0 auto;
+	
+}
+.s_form input{
+	font-family: 'Playfair Display', serif;
+	font-size: 16px;
+	font-weight: 400;
+	width: 345px;
+	height: 45px;
+	color: #626262;
+	border: none;
+	border-bottom: 1px solid #000000;
+	background-color: transparent;
+	padding-left: 5px;
+	padding-right: 45px;
+}
+.s_form input:focus{
+	outline: 0;
+}
+.s_form button{
+	position: absolute;
+	background-color: transparent;
+	border: none;
+	cursor: pointer;
+	top: 15px;
+	right: 0;
+}
+.s_form button:focus{
+	outline: 0;
+}
+.s_form button img{}
+/*contact end*/
+
+/*blog2 start*/
+.load{
+	text-align: center;
+	margin: 100px 0;
+}
+.btn{
+	width: 160px;
+	height: 60px;
+	font-family: 'Playfair Display', serif;
+	font-size: 20px;
+	font-weight: 400;
+	color: #626262;
+	background-color: transparent;
+	border: 1px solid #626262;
+}	
+.btn:hover{
+	background-color: #626262;
+	color: white;
+	transition: .3s;
+}
+/*blog2 end*/
+
+/*footer start*/
+footer{
+	font-family: 'Playfair Display', serif;
+	font-size: 16px;
+	font-weight: 400;
+	overflow: hidden;
+	height: 80px;
+	padding-top: 15px;
+	/*border: 1px solid black;*/
+	background-color: #f0f0f0;
+}
+/* over the .container {
+	font-family: 'Playfair Display', serif;
+	font-size: 16px;
+	font-weight: 400;
+	overflow: hidden;
+}*/
+
+.terms {
+	float: left;
+}
+.terms ul{}
+.terms ul li{
+	float: left;
+	list-style: none;
+	padding: 7px;
+}
+.terms ul li a{
+	text-decoration: none;
+} 
+.social{
+	float: right;
+	padding-right: 30px;
+}
+.social ul{
+	list-style: none;
+}
+.social ul li{
+	float: left;
+	padding: 10px;
+}
+.social ul li a{}
+/*footer end*/
+
+
+/*
+.position{
+	border: 4px solid red;
+}
+.box{
+	width: 100px;
+	height: 100px;
+	position: absolute;
+}
+.box1{
+	background-color: red;
+	top: 0;
+	right: 0;
+}
+.box2{
+	background-color: green;
+	left: 0;
+	right: 0;
+	margin: 150 auto;
+}
+.box3{
+	background-color: black;
+	top: 0;
+	right: 0;
+}
+.box4{
+	background-color: blue;
+	right: 0;
+	bottom: 0;
+}
+.box5{
+	background-color: aqua;
+	left: 0;
+	bottom: 0;
+}
+*/
